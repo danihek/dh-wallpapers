@@ -16,7 +16,7 @@
         name = "dh-wallpapers";
         src = dh-wallpapers;
         buildInputs = [ pkgs.git ];
-        phases = [ "unpackPhase" installPhase" ];
+        phases = [ "unpackPhase" "installPhase" ];
         installPhase = ''
           mkdir -p $out/.wallpapers
           cp -r ./content/* $out/.wallpapers/
