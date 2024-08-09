@@ -3,7 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-    dh-wallpapers.url = "github:danihek/dh-wallpapers";
   };
 
   outputs = { self, nixpkgs, dh-wallpapers }:
